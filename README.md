@@ -16,6 +16,8 @@ Instructions are pretty straightforward: open ATPDraw and build your LCC object 
   It does. Make sure your are using a XML export and not the standard binary ACP file of ATPDraw.
 
 - Why should I use this instead of a $PARAMETER to set a variable for faulted section length?
+
+  
   You should not. It's up to you, but have in mind that JMarti models "hard-code" the line length into the poles and residues of the propagation function that are written into the PCH file. Good luck in meddling with that for adjusting line lengths.
 
 ## Restrictions of use
