@@ -11,6 +11,8 @@ Instructions are pretty straightforward: open ATPDraw and build your LCC object 
 ## FAQ
 
 - I loaded my file and it does not work!
+
+
   It does. Make sure your are using a XML export and not the standard binary ACP file of ATPDraw.
 
 - Why should I use this instead of a $PARAMETER to set a variable for faulted section length?
