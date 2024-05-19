@@ -8,6 +8,14 @@ Instructions are pretty straightforward: open ATPDraw and build your LCC object 
 
 [![Screenshot #1](https://github.com/amaurigmartins/LCCRipper/blob/main/Screenshot1.png?raw=true)](https://github.com/amaurigmartins/LCCRipper/blob/main/Screenshot1.png?raw=true) 
 
+## FAQ
+
+- I loaded my file and it does not work!
+  It does. Make sure your are using a XML export and not the standard binary ACP file of ATPDraw.
+
+- Why should I use this instead of a $PARAMETER to set a variable for faulted section length?
+  You should not. It's up to you, but have in mind that JMarti models "hard-code" the line length into the poles and residues of the propagation function that are written into the PCH file. Good luck in meddling with that for adjusting line lengths.
+
 ## Restrictions of use
 
 We appreciate the interest in our work and we invite the interested users to use our codes as necessary, as long as they are not embedded in any commercial software, which is **strictly prohibited**. If you use the LCC Ripper as a part of scientific research, we kindly ask you to refer to our published papers:
