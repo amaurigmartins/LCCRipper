@@ -31,6 +31,8 @@ Instructions are pretty straightforward: open ATPDraw and build your LCC object 
 
 We appreciate the interest in our work and we invite the interested users to use our codes as necessary, as long as they are not embedded in any commercial software, which is **strictly prohibited**. If you use the LCC Ripper as a part of scientific research, we kindly ask you to refer to our published papers:
 
+- L. J. Rodríguez, A. G. Martins-Britto et al., "[ATPDraw as a Practical Tool for Electromagnetic Interference Simulations: A case study](https://www.researchgate.net/publication/373897490_ATPDraw_as_a_Practical_Tool_for_Electromagnetic_Interference_Simulations_A_case_study)," 2023 European EMTP-ATP User Group Meeting, 2023, pp. 1-15.
+- 
 - M. A. B. Ribeiro, C. M. Moraes, A. G. Martins-Britto and K. M. Silva, "[Assessment of Different Frequency-Dependent Line Models for EMT Simulations of HVDC Systems](https://ieeexplore.ieee.org/document/10344430)," 2023 Workshop on Communication Networks and Power Systems (WCNPS), Brasilia, Brazil, 2023, pp. 1-7, doi: 10.1109/WCNPS60622.2023.10344430.
   
 - L. A. Ribeiro, G. Cunha, A. G. Martins-Britto, E. P. A. Ribeiro, F. V. Lopes, “[Impact of transmission line modeling aspects on TW-Based fault location studies](https://www.sciencedirect.com/science/article/abs/pii/S0378779621001851),” in Electric Power Systems Research, 196(2):107204, doi: 110.1016/j.epsr.2021.107204.
