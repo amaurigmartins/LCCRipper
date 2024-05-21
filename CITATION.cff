@@ -1,6 +1,6 @@
 cff-version: 1.2.0
-title: ATP-Batlab
-message: ' Helper tool for batch ATP simulations, parametric analyses and dataset generation using MATLAB '
+title: LCC Ripper 🔪
+message: ' A simple tool to slice ATPDraw LCC objects into several sections '
 type: software
 authors:
   - given-names: Amauri
@@ -10,6 +10,10 @@ authors:
     affiliation: University of Brasília
 identifiers:
   - type: doi
+    value: 10.13140/RG.2.2.11283.45606
+    description: >-
+      ATPDraw as a Practical Tool for Electromagnetic Interference Simulations: A case study.
+  - type: doi
     value: 10.1109/WCNPS60622.2023.10344430
     description: >-
       Assessment of Different Frequency-Dependent Line Models for EMT Simulations of HVDC Systems.
@@ -17,13 +21,10 @@ identifiers:
     value: 10.1016/j.epsr.2021.107204
     description: >-
       Impact of transmission line modeling aspects on TW-Based fault location studies.
-repository-code: 'https://github.com/amaurigmartins/ATPBatlab'
+repository-code: 'https://github.com/amaurigmartins/LCCRipper'
 url: >-
-  https://www.mathworks.com/matlabcentral/fileexchange/157621-atpbatlab
+  https://www.mathworks.com/matlabcentral/fileexchange/166116-lcc-ripper
 abstract: >-
-  Toolbox in MATLAB for modelling of overhead and
-  underground transmission lines (per-unit-length
-  parameters, propagation characteristics, frequency scan,
-  transient simulations).
+  LCC Ripper is intended to slice a transmission line model built in ATPDraw into several sections of arbitrary length. This tool makes a fine addition to ATP-Batlab when carrying out parametric studies in which the user is interested in varying the position where a disturbance occurs along a transmission line. Instructions are pretty straightforward: open ATPDraw and build your LCC object from scratch. Save your model as a XML file. Launch the file lccripper.mlapp from MATLAB IDE, specify the source file, the total line length and the number of sections desired.
 version: 1.0.0
 date-released: '2024-01-13'
